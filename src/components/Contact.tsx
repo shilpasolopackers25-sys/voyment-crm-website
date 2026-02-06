@@ -32,11 +32,11 @@ export default function Contact() {
     return (
         <section id="contact" className="bg-white">
             {/* Visual Divider */}
-            <div className="w-full flex justify-center pt-8">
+            <div className="w-full flex justify-center pt-24 md:pt-32">
                 <div className="w-20 h-1 rounded-full bg-[#075E54]/20" />
             </div>
             {/* Single Centered Section */}
-            <div className="w-full flex justify-center pt-16 pb-24">
+            <div className="w-full flex justify-center pt-12 pb-24">
                 <div className="w-full max-w-6xl px-6">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         {/* Left Content */}
