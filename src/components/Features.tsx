@@ -84,11 +84,7 @@ const features = [
 
 export default function Features() {
     return (
-        <section id="features" className="bg-white pt-24 md:pt-32">
-            {/* Visual Divider */}
-            <div className="w-full flex justify-center mb-12">
-                <div className="w-20 h-1 rounded-full bg-[#075E54]/20" />
-            </div>
+        <section id="features" className="bg-white py-16 md:py-24">
             {/* SECTION 1: Header - Individually Centered */}
             <div className="w-full flex justify-center pb-12">
                 <div className="w-full max-w-3xl px-6 text-center">
@@ -113,7 +109,7 @@ export default function Features() {
             </div>
 
             {/* SECTION 2: Features Grid - Individually Centered */}
-            <div className="w-full flex justify-center pb-24">
+            <div className="w-full flex justify-center">
                 <div className="w-full max-w-7xl px-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {features.map((feature, index) => (
