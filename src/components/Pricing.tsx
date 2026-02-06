@@ -111,8 +111,12 @@ export default function Pricing() {
                 <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#E8F5E9] rounded-full blur-3xl"></div>
             </div>
 
+            {/* Visual Divider */}
+            <div className="w-full flex justify-center pt-8 relative z-10">
+                <div className="w-20 h-1 rounded-full bg-[#075E54]/20" />
+            </div>
             {/* SECTION 1: Header - Individually Centered */}
-            <div className="w-full flex justify-center pt-24 pb-12 relative z-10">
+            <div className="w-full flex justify-center pt-16 pb-12 relative z-10">
                 <div className="w-full max-w-3xl px-6 text-center">
                     <div className="flex justify-center mb-6 animate-fade-in">
                         <div className="inline-flex items-center gap-2 bg-[#E8F5E9] px-4 py-2 rounded-full shadow-sm">

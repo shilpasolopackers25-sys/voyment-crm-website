@@ -85,8 +85,12 @@ const features = [
 export default function Features() {
     return (
         <section id="features" className="bg-white">
+            {/* Visual Divider */}
+            <div className="w-full flex justify-center pt-8">
+                <div className="w-20 h-1 rounded-full bg-[#075E54]/20" />
+            </div>
             {/* SECTION 1: Header - Individually Centered */}
-            <div className="w-full flex justify-center pt-24 pb-12">
+            <div className="w-full flex justify-center pt-16 pb-12">
                 <div className="w-full max-w-3xl px-6 text-center">
                     <div className="flex justify-center mb-6">
                         <div className="inline-flex items-center gap-2 bg-[#E8F5E9] px-4 py-2 rounded-full">
